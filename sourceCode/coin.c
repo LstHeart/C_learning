@@ -1,5 +1,5 @@
 #include<stdio.h>
-// 凑钱数,用1角，2角，5角凑出10元以下的金额
+// 凑钱数,用1角，2角，5角凑出任意金额[1,2,5都得用]
 
 int main(){
 
@@ -10,9 +10,9 @@ int main(){
     printf("您想要凑成的金额:");
     scanf("%d",&x);
 
-    for(five=0;five<=100/5;five++){
-    for(two =0;two<=100/2;two++){
-        for( one=0;one<=100;one++){
+    for(five=1;five<=10*x/5;five++){
+    for(two =1;two<=10*x/2;two++){
+        for( one=1;one<=10*x;one++){
             if(one*1+two*2+five*5==10*x){
             printf("%d元可以由:%d个1角，%d个2角，%d个5角凑出\n",x,one,two,five);
             // mark= 1;
