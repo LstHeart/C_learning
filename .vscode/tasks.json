@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "command": "gcc",  // 编译C程序。可以换成 echo 来调试命令参数
+    "isShellCommand": false,
+    "tasks": [
+        {
+            "taskName": "build",
+            "suppressTaskName": true,
+            "args": [
+                "-g",
+                "-o",
+                "${workspaceRoot}/${fileBasenameNoExtension}.out",
+                "${file}"
+            ],
+            "problemMatcher": {
+                "owner": "cpp",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
