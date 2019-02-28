@@ -1,4 +1,11 @@
-#includt<stdio.h>
+/*
+ * @Author: lstheart
+ * @LastEditors: lstheart
+ * @Description: file content
+ * @Date: 2019-02-28 15:36:24
+ * @LastEditTime: 2019-02-28 15:36:25
+ */
+#include<stdio.h>
 
 int main(){
 	int now=0; //现在时间eg:1106
