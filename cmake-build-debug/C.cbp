@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lstheart/Workspaces/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lstheart/Workspaces/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C">
+				<Option output="/home/lstheart/Workspaces/C/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lstheart/Workspaces/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C/fast">
+				<Option output="/home/lstheart/Workspaces/C/cmake-build-debug/C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lstheart/Workspaces/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 C/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lstheart/Workspaces/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lstheart/Workspaces/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/GCD.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/coin.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo1.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo10.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo11.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo12.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo13.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo14.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo15.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo2_scanf.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo3_CONST.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo4_const_scanf.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo5_plus.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo6_height.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo7_time.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo8_avg.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo9.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/demo_sub.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/factorial.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/hello.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/hello2.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/inverse.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/prime.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/prime2.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/seq_number.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/sizeof.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/sum_func.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/sum_func2.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/sourceCode/unsigned.c">
+			<Option target="C"/>
+		</Unit>
+		<Unit filename="/home/lstheart/Workspaces/C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
