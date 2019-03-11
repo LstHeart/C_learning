@@ -5,6 +5,7 @@ int main(){
     const int number = 10; // 数组大小
     int x;
     int count[number]; // 定义数组
+    // int count[number]={0}; // 另一种初始化数组的办法
     int i;
     for( i=0;i<number;i++ ){
         count[i]=0;
