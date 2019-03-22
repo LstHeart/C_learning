@@ -30,3 +30,5 @@
 > * [小测验9.2](https://www.icourse163.org/learn/ZJU-9001?from=study#/learn/content?type=detail&id=149013&cid=166079)
 > * [小测验11](https://www.icourse163.org/learn/ZJU-9001?from=study#/learn/content?type=detail&id=167046&cid=187016)
 > * [小测验12](https://www.icourse163.org/learn/ZJU-9001?from=study#/learn/content?type=detail&id=176002&cid=191086)
+> * [期末考试](https://www.icourse163.org/learn/ZJU-9001?from=study#/learn/examlist)
+>
