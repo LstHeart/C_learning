@@ -1,7 +1,13 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
-
+// void funa(int *x,int *y){
+//     int p;
+//     p=*x;
+//     *x=*y;
+//     *y=p;
+// }
+// #define TOUPPER(c) ('a'<=(c)&&(c)<='z'?(c)-'a'+'A':(c))
 //-----------------------------------------------
 // int A;
 // double t;
@@ -46,7 +52,15 @@
 //     }
 //     printf("%d",x[0]);
 // }
+
+struct {
+    int k;
+    char s[30];
+} a[5]={1,"ABC",2,"abc"},*p=a;
 int main(){
+
+    printf("%s\n",*p->s);
+
 // ---------------------------------------------------    
     // char *x="hello";
     // for(int i=0 ;i<strlen(x);i++){
@@ -171,12 +185,41 @@ int main(){
     // f(z,6);
     // printf("\n");
     // ---------------------------------------------------
-    char a='1';
-    printf("%d\n",a);
+    // char a='1';
+    // printf("%d\n",a);
+    
+    // float b=0.0f;
+    // b=10/3.0*3;
+    // printf("%f\n",b);
 
+    // double a1=1.0;
+    // f(a1);
+    // -----------------------------------------------------
+    // int a[]={1,2,3,4,5,};
+    // int *p=a;
+    // int *q=&a[5];
+    // printf("%d",q-p);
+    // -----------------------
+    // char s[10]={0};
+    // strcpy(s,"abcd");
+    // int i=0;
+    // putchar(TOUPPER(s[++i]));
+    // -----------------------------------------------------
+    // int k;
+    // for(k=1;k;k++)
+    //     printf("%d ",k);
+    // int a=1;
+    // int b=2;
 
-
-
+    // int *p=&a;
+    // int *q=&b;
+    // // p=&a;
+    // // q=&b;
+    // funa(p,q);
+    // printf("a=%d,b=%d\n",a,b);
+    // -------------------------------
+    // char c=-1;
+    // printf("%d,%c,%hd,%hhd\n",c,c,c);
 
 
 
@@ -186,3 +229,8 @@ int main(){
 return 0;
 
 }
+// int f(int x){
+
+//     return 0;
+
+// }
